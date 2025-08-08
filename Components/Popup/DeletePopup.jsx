@@ -1,6 +1,6 @@
 import React from 'react' 
 import PopupWrapper from './PopupWrapper'
-import { useChatContext } from '@/context/chatContext';
+import { useChatContext } from '@/context/chatContext'; 
 import { useAuth } from '@/context/authContext';
 import Avatar from '../Avatar';
 import { doc, getDoc, setDoc, updateDoc,serverTimestamp } from 'firebase/firestore';
