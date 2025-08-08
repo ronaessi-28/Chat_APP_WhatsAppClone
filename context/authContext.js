@@ -5,7 +5,7 @@ import { auth, db } from "../firebase/firebase";
 import { profileColors } from "@/utils/constants";
 const UserContext = createContext();
 
-export const UserProvider = ({ children }) => {
+export const UserProvider = ({ children }) => { 
     const [currentUser, setCurrentUser] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
     const colorIndex = Math.floor(Math.random() * profileColors.length); 
